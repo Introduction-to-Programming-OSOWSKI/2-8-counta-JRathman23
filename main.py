@@ -4,6 +4,6 @@ def countA(w):
     for i in range(0,len(w)):
         if [i] =="a":
            letterA=letterA+1
-        return letterA
-        
+        print(letterA)
+
 countA("alabama")
